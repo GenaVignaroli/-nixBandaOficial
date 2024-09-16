@@ -124,12 +124,6 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-@media (max-width: 992px) {
-  #header {
-    border: 0;
-    padding: 15px 0;
-  }
-}
 
 .get-started-btn {
   margin-left: 25px;
@@ -149,12 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 992px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
-}
+
 
 .navbar {
   padding: 0;
@@ -288,14 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-  .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
-  }
-}
+
 
 .mobile-nav-toggle {
   color: #fff;
@@ -307,14 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
+
 
 .navbar-mobile {
   position: fixed;
@@ -520,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -3354,7 +3329,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .img {
   padding-top: 75px;
-  padding-right: 15vw;
+  padding-left: 20vw;
 }
 
 #footer {
@@ -3425,4 +3400,3 @@ h1, h2, h3, h4, h5, h6 {
 #footer .credits a:hover {
   color: #009961;
 }
-/*# sourceMappingURL=style.css.map */
